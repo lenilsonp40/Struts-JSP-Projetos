@@ -11,8 +11,19 @@
             <result>/index.jsp</result>
         </action>
 
+        <action name="paginaCadastroPessoa">
+            <result>pages/pessoa/cadastrarPessoa.jsp</result>
+        </action>
+
+        <action name="inserirPessoa" class="br.com.lenilson.struts2.actions.controllers.PessoaController"
+                method="inserirPessoa">
+            <result name="Ok">/pages/pessoa/mostrarPessoa.jsp</result>
+
+        </action>
+
         <action name="teste" class="br.com.lenilson.struts2.actions.TesteAction">
             <result name="TESTE">/teste.jsp</result>
+
         </action>
     </package>
 </struts>

@@ -17,6 +17,9 @@
     <h1>Cadastrar Pessoa</h1>
 
     <s:form action="inserirPessoa">
+        <s:textfield label="Nome" name="pessoa.nome"></s:textfield>
+        <s:textfield label="Idade" name="pessoa.idade"></s:textfield>
+        <s:submit value="Salvar"></s:submit>
 
     </s:form>
 

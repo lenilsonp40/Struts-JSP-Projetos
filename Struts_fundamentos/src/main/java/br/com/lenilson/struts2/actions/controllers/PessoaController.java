@@ -5,12 +5,13 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class PessoaController extends ActionSupport {
 
+    private static final long serialVersionUID = 1L;
 
     private Pessoa pessoa;
 
     public String inserirPessoa() {
 
-        return SUCCESS;
+        return "Ok";
     }
 
 
